@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vermeil | Alta cocina de brasa en Madrid desde 1962</title>
+  <meta name="description" content="Vermeil, restaurante de alta cocina de brasa en Madrid desde 1962. Tres generaciones de la familia Ferrán, producto de temporada y brasa de encina. Reserva tu mesa online.">
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://webderestaurantedeprueba.vercel.app/">
+
+  <meta property="og:type" content="restaurant">
+  <meta property="og:title" content="Vermeil | Alta cocina de brasa en Madrid">
+  <meta property="og:description" content="Tres generaciones cocinando sobre brasa de encina. Reserva tu mesa.">
+  <meta property="og:image" content="assets/img/salon-poster.jpg">
+  <meta property="og:locale" content="es_ES">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Vermeil",
+    "foundingDate": "1962",
+    "servesCuisine": ["Cocina de brasa", "Cocina española de autor"],
+    "priceRange": "€€€€",
+    "telephone": "+34 912 345 678",
+    "email": "reservas@vermeil.es",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Calle de Toledo 112",
+      "postalCode": "28005",
+      "addressLocality": "Madrid",
+      "addressCountry": "ES"
+    },
+    "openingHours": ["Tu-Sa 13:30-16:00", "Tu-Sa 20:30-23:30", "Su 13:30-16:00"],
+    "acceptsReservations": "True",
+    "menu": "carta.html"
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#historia">Saltar al contenido</a>
+
+  <header class="site-header" id="top">
+    <nav class="nav" aria-label="Principal">
+      <ul class="nav-links">
+        <li><a href="#historia">La casa</a></li>
+        <li><a href="#carta">La carta</a></li>
+        <li><a href="#resenas">Reseñas</a></li>
+      </ul>
+      <a class="brand" href="#top" aria-label="Vermeil, inicio">
+        <img src="assets/img/logo.svg" alt="" width="44" height="44">
+        <span class="brand-word">Vermeil</span>
+      </a>
+      <div class="nav-end">
+        <a class="nav-phone" href="tel:+34912345678">912 345 678</a>
+        <button class="btn btn-ghost btn-sm" type="button" data-open="reserva">Reservar</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 1. Hero -->
+    <section class="hero" aria-labelledby="hero-title">
+      <video class="hero-video" autoplay muted loop playsinline preload="auto" poster="assets/img/hero-poster.jpg" aria-hidden="true">
+        <source src="assets/video/hero.mp4" type="video/mp4">
+      </video>
+      <div class="hero-shade" aria-hidden="true"></div>
+
+      <div class="hero-inner">
+        <img class="hero-seal" src="assets/img/logo.svg" alt="" width="88" height="88">
+        <h1 id="hero-title" class="hero-title" aria-label="Vermeil">
+          <span>V</span><span>e</span><span>r</span><span>m</span><span>e</span><span>i</span><span>l</span>
+        </h1>
+        <p class="hero-sub">Alta cocina de brasa en Madrid, desde 1962</p>
+        <button class="btn btn-gold" type="button" data-open="reserva">Reserva tu mesa aquí ya</button>
+      </div>
+
+      <div class="hero-foot">
+        <span>Calle de Toledo 112, Madrid</span>
+        <a href="#historia" class="scroll-cue" aria-label="Bajar a nuestra historia"><span></span></a>
+        <a href="tel:+34912345678">+34 912 345 678</a>
+      </div>
+    </section>
+
+    <!-- 2. Historia -->
+    <section class="historia" id="historia" aria-labelledby="historia-title">
+      <div class="wrap historia-grid">
+        <figure class="historia-photo">
+          <div class="historia-frame"><img src="assets/img/historia.jpg" alt="Aurelio Ferrán trabajando tras la barra de la primera casa de comidas" width="1400" height="928" loading="lazy"></div>
+          <figcaption>Aurelio Ferrán tras la barra, 1964</figcaption>
+        </figure>
+        <div class="historia-text">
+          <h2 id="historia-title" class="h-display">Nuestra historia</h2>
+          <p>En 1962, Aurelio Ferrán abrió una casa de comidas de seis mesas junto a la Puerta de Toledo. Cocinaba sobre brasa de encina lo que traía el mercado esa misma mañana, y no servía nada que no hubiera probado antes.</p>
+          <p>Su hija Elena la convirtió en restaurante en 1989 y le dio el nombre que hoy lleva: <em>vermeil</em>, la plata bañada en oro de la copa con la que su padre brindó el día que abrió.</p>
+          <p>Hoy su nieto, el chef Martín Ferrán, cocina sobre la misma brasa y con el mismo rigor, con una carta que cambia con cada estación.</p>
+          <p class="signature">Martín Ferrán<small>Tercera generación</small></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Carta -->
+    <section class="carta" id="carta" aria-labelledby="carta-title">
+      <div class="wrap">
+        <header class="carta-head">
+          <h2 id="carta-title" class="h-display"><em>Descubre</em> la carta</h2>
+          <p>Producto de mercado, brasa de encina y paciencia. Una pequeña muestra de lo que esta temporada sale de nuestra cocina.</p>
+        </header>
+
+        <ol class="dishes">
+          <li class="dish">
+            <div class="dish-text">
+              <p class="dish-kind">Entrante</p>
+              <h3>Alcachofas confitadas a la brasa</h3>
+              <p>Alcachofas de Tudela confitadas en aceite de oliva y terminadas sobre encina, con ajo tierno, limón asado y hierbas del huerto.</p>
+              <p class="price">24 €</p>
+            </div>
+            <div class="dish-plate"><img src="assets/img/plato-alcachofa.jpg" alt="Alcachofas confitadas con limón asado en plato blanco" width="720" height="720" loading="lazy"></div>
+          </li>
+          <li class="dish">
+            <div class="dish-text">
+              <p class="dish-kind">Del mar</p>
+              <h3>Bogavante azul y colmenillas</h3>
+              <p>Bogavante del Cantábrico asado al momento, colmenillas salteadas y una salsa ligada con su propio coral.</p>
+              <p class="price">58 €</p>
+            </div>
+            <div class="dish-plate"><img src="assets/img/plato-bogavante.jpg" alt="Bogavante con colmenillas y salsa en plato negro" width="720" height="720" loading="lazy"></div>
+          </li>
+          <li class="dish">
+            <div class="dish-text">
+              <p class="dish-kind">De la brasa</p>
+              <h3>Lomo de vaca madurada 60 días</h3>
+              <p>Vaca rubia gallega madurada en nuestra cámara, sellada a fuego vivo y servida con pimientos asados y setas de cardo.</p>
+              <p class="price">46 €</p>
+            </div>
+            <div class="dish-plate"><img src="assets/img/plato-vaca.jpg" alt="Lomo de vaca madurada en lonchas con setas y escamas de sal" width="720" height="720" loading="lazy"></div>
+          </li>
+          <li class="dish">
+            <div class="dish-text">
+              <p class="dish-kind">Postre</p>
+              <h3>Flan de vainilla y sorbete de melocotón</h3>
+              <p>El flan de la receta de la abuela Carmen, con vainilla de Tahití, sorbete de melocotón de Calanda y una teja fina de caramelo.</p>
+              <p class="price">16 €</p>
+            </div>
+            <div class="dish-plate"><img src="assets/img/plato-postre.jpg" alt="Flan con sorbete de melocotón y flores en plato negro" width="720" height="720" loading="lazy"></div>
+          </li>
+        </ol>
+
+        <div class="carta-cta">
+          <a class="btn btn-gold" href="carta.html">Revisa toda la carta</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Reseñas -->
+    <section class="resenas" id="resenas" aria-labelledby="resenas-title">
+      <div class="wrap">
+        <div class="resenas-head">
+          <h2 id="resenas-title" class="h-display">Lo que cuentan quienes se sentaron a nuestra mesa</h2>
+          <p class="score"><strong>4,9</strong><span>de 5 en más de 1.200 opiniones</span></p>
+        </div>
+
+        <ul class="reviews" id="reviews">
+          <li class="review review-lead">
+            <p class="stars" aria-label="5 de 5 estrellas">★★★★★</p>
+            <blockquote>Pedimos el bogavante por recomendación del sumiller y acabamos pidiendo otro. El servicio sabe cuándo acercarse y cuándo dejarte disfrutar.</blockquote>
+            <p class="who">Lucía Martín, Madrid</p>
+          </li>
+          <li class="review">
+            <p class="stars" aria-label="5 de 5 estrellas">★★★★★</p>
+            <blockquote>Celebramos nuestro aniversario y nos guardaron la mesa junto a la ventana sin pedirlo. La vaca madurada es la mejor que he probado en años.</blockquote>
+            <p class="who">Javier Rueda, Valencia</p>
+          </li>
+          <li class="review">
+            <p class="stars" aria-label="5 de 5 estrellas">★★★★★</p>
+            <blockquote>Un sitio con historia que no vive de ella. Cada plato tiene un motivo para estar en la carta.</blockquote>
+            <p class="who">Claire Dumont, París</p>
+          </li>
+        </ul>
+
+        <div class="resenas-cta">
+          <button class="btn btn-gold" type="button" data-open="opinion">Cuéntanos tu experiencia</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Despedida -->
+    <section class="despedida" aria-labelledby="despedida-title">
+      <video class="despedida-video" autoplay muted loop playsinline preload="metadata" poster="assets/img/salon-poster.jpg" aria-hidden="true">
+        <source src="assets/video/salon.mp4" type="video/mp4">
+      </video>
+      <div class="despedida-shade" aria-hidden="true"></div>
+      <div class="despedida-inner">
+        <img src="assets/img/logo.svg" alt="" width="64" height="64">
+        <h2 id="despedida-title" class="despedida-title">La mesa está puesta</h2>
+        <p>Gracias por acompañarnos hasta aquí. Encenderemos la brasa una hora antes de que llegues.</p>
+        <button class="btn btn-gold" type="button" data-open="reserva">Reserva aquí tu mesa</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <img src="assets/img/logo.svg" alt="" width="52" height="52">
+        <p class="brand-word">Vermeil</p>
+        <p>Alta cocina de brasa desde 1962</p>
+      </div>
+      <div>
+        <h3>Dónde estamos</h3>
+        <p>Calle de Toledo 112<br>28005 Madrid</p>
+      </div>
+      <div>
+        <h3>Horario</h3>
+        <p>Martes a sábado<br>13:30 a 16:00 y 20:30 a 23:30<br>Domingo, solo mediodía</p>
+      </div>
+      <div>
+        <h3>Contacto</h3>
+        <p><a href="tel:+34912345678">+34 912 345 678</a><br><a href="mailto:reservas@vermeil.es">reservas@vermeil.es</a></p>
+      </div>
+    </div>
+    <p class="wrap legal">© <span id="year">2026</span> Vermeil. Restaurante ficticio de demostración.</p>
+  </footer>
+
+  <!-- Diálogo: reserva -->
+  <dialog class="modal" id="reserva" aria-labelledby="reserva-title">
+    <form method="dialog" class="modal-body" data-form="reserva" novalidate>
+      <button class="modal-close" type="button" data-close aria-label="Cerrar">×</button>
+      <div class="modal-step" data-step="form">
+        <h2 id="reserva-title" class="h-display">Reserva tu mesa</h2>
+        <p class="modal-intro">Te confirmaremos la reserva por teléfono en menos de dos horas.</p>
+        <div class="field-row">
+          <label>Fecha<input type="date" name="fecha" required></label>
+          <label>Hora
+            <select name="hora" required>
+              <option value="">Elige</option>
+              <optgroup label="Comida"><option>13:30</option><option>14:00</option><option>14:30</option><option>15:00</option></optgroup>
+              <optgroup label="Cena"><option>20:30</option><option>21:00</option><option>21:30</option><option>22:00</option><option>22:30</option></optgroup>
+            </select>
+          </label>
+          <label>Personas
+            <select name="personas" required>
+              <option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option>
+            </select>
+          </label>
+        </div>
+        <label>Nombre<input type="text" name="nombre" autocomplete="name" required></label>
+        <label>Teléfono<input type="tel" name="telefono" autocomplete="tel" required pattern="[0-9+ ]{9,}"></label>
+        <label>Comentarios <span class="opt">(opcional)</span><textarea name="notas" rows="2" placeholder="Alergias, celebraciones, preferencias de mesa"></textarea></label>
+        <p class="form-error" role="alert" hidden>Revisa los campos marcados para completar la reserva.</p>
+        <button class="btn btn-gold btn-block" type="submit">Solicitar reserva</button>
+      </div>
+      <div class="modal-step" data-step="done" hidden>
+        <h2 class="h-display">Reserva solicitada</h2>
+        <p class="modal-intro" data-summary></p>
+        <button class="btn btn-ghost btn-block" type="button" data-close>Cerrar</button>
+      </div>
+    </form>
+  </dialog>
+
+  <!-- Diálogo: opinión -->
+  <dialog class="modal" id="opinion" aria-labelledby="opinion-title">
+    <form method="dialog" class="modal-body" data-form="opinion" novalidate>
+      <button class="modal-close" type="button" data-close aria-label="Cerrar">×</button>
+      <div class="modal-step" data-step="form">
+        <h2 id="opinion-title" class="h-display">Cuéntanos tu experiencia</h2>
+        <fieldset class="rating">
+          <legend>Tu valoración</legend>
+          <input type="radio" id="r5" name="estrellas" value="5" checked><label for="r5" title="5 estrellas">★</label>
+          <input type="radio" id="r4" name="estrellas" value="4"><label for="r4" title="4 estrellas">★</label>
+          <input type="radio" id="r3" name="estrellas" value="3"><label for="r3" title="3 estrellas">★</label>
+          <input type="radio" id="r2" name="estrellas" value="2"><label for="r2" title="2 estrellas">★</label>
+          <input type="radio" id="r1" name="estrellas" value="1"><label for="r1" title="1 estrella">★</label>
+        </fieldset>
+        <label>Nombre y ciudad<input type="text" name="nombre" placeholder="Ana López, Sevilla" required></label>
+        <label>Tu opinión<textarea name="texto" rows="4" required minlength="10"></textarea></label>
+        <p class="form-error" role="alert" hidden>Escribe tu nombre y al menos una frase sobre tu visita.</p>
+        <button class="btn btn-gold btn-block" type="submit">Publicar opinión</button>
+      </div>
+      <div class="modal-step" data-step="done" hidden>
+        <h2 class="h-display">Opinión publicada</h2>
+        <p class="modal-intro">Gracias por contarnos tu visita. Ya aparece junto al resto de reseñas.</p>
+        <button class="btn btn-ghost btn-block" type="button" data-close>Cerrar</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
